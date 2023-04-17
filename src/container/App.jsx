@@ -3,6 +3,7 @@ import ThemeProvider from "react-bootstrap/ThemeProvider";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import NavbarLayout from "../layout/Navbar";
+import HomePage from "../page/Home";
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
           minBreakpoint="xxs"
         >
           <NavbarLayout />
-          {/* Home from pages folder */}
+
+          <HomePage />
         </ThemeProvider>
       </SSRProvider>
     </>
