@@ -9,7 +9,7 @@ const NavbarLayout = () => {
   return (
     <Navbar className="py-4" expand="lg" bg="light" variant="light" fixed="top">
       <Container>
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="#home">
           <i className="bi bi-house fs-2 mx-2" />
           <strong className="fs-2 text-uppercase">Home</strong>
         </Navbar.Brand>
@@ -31,8 +31,12 @@ const NavbarLayout = () => {
 
           <Offcanvas.Body>
             <Nav className="justify-content-end align-items-lg-center flex-grow-1 pe-3 fs-6">
-              <Nav.Link href="#action1">Home</Nav.Link>
-              <Nav.Link href="#action2">Link</Nav.Link>
+              <Nav.Link href="#chef-advices" className="mx-2">
+                Chef Advices
+              </Nav.Link>
+              <Nav.Link href="#contact-us" className="mx-2">
+                Contact US
+              </Nav.Link>
 
               <NavDropdown title="Dropdown" id="offcanvasNavbarDropdown-expand">
                 <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
