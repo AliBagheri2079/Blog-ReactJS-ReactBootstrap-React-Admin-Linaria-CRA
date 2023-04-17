@@ -46,7 +46,7 @@ const ChefAdvice = () => {
 
             <div className="mt-4">
               <p
-                className="fs-6 fw-light text-secondary lh-lg"
+                className="fs-5 fw-light text-secondary lh-lg"
                 style={{ textAlign: "justify" }}
               >
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
