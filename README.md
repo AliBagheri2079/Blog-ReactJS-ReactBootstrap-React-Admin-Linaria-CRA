@@ -1,4 +1,4 @@
-# [Demo React Restaurant](https://alibagheri2079.github.io/ReactJS-Blog/)
+# Demo React Restaurant
 
 <img src="./Screenshot.png" alt="React Restaurant Screenshot"/>
 
